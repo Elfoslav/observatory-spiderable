@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "iron-router": {
+      "git": "https://github.com/EventedMind/iron-router.git",
+      "tag": "v0.5.4"
+    },
+    "observatory": {}
+  }
+}

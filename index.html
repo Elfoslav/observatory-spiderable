@@ -1,0 +1,25 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="Meteor spiderable SEO test." />
+  <title>Meteor spiderable SEO test</title>
+</head>
+
+<body>
+</body>
+
+<template name="layout">
+  {{yield}}
+</template>
+
+<template name="home">
+  <h1>Meteor spiderable SEO test</h1>
+  <p>Go to command line and write:</p>
+  <p>
+	curl {{url}}
+  </p>
+  <p>You should see this page as a result.</p>
+  <p>But you will see empty body tag since this page uses observatory package which for some
+	reason blocks spiderable package. Spiderable works on localhost though.
+  </p>
+  <p>If you remove observatory package, spiderable works.</p>
+</template>

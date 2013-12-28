@@ -1,0 +1,64 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.5.4"
+      },
+      "spiderable-404": {},
+      "observatory": {},
+      "cookies": {},
+      "fancybox": {},
+      "chosen-package": {},
+      "moment": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.5.4",
+        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+      },
+      "spiderable-404": {
+        "git": "https://github.com/wojas/spiderable-404.git",
+        "tag": "v0.6.6.1",
+        "commit": "04013254e4cf1e6d38ac5e78d48a33e5ddf554b2"
+      },
+      "observatory": {
+        "git": "https://github.com/jhoxray/observatory.git",
+        "tag": "v0.3.21",
+        "commit": "3d6b436af0a70b784d0f9ec4709907c77bd4fd63"
+      },
+      "cookies": {
+        "git": "https://github.com/subhog/meteor-cookies.git",
+        "tag": "v0.3.0",
+        "commit": "c3d2684cd97dd611652833169b5f628ad23c57f6"
+      },
+      "fancybox": {
+        "git": "https://github.com/matteodem/meteor-fancybox.git",
+        "tag": "v0.5.0",
+        "commit": "0dee721f3655f8b40fd89ab733fff44642bb5e79"
+      },
+      "chosen-package": {
+        "git": "https://github.com/Ore4444/chosen-package.git",
+        "tag": "v0.11.1",
+        "commit": "8d1a748bafaae8b6005a979ab7261ac14ff38052"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.2.1",
+        "commit": "9ee12e714afe56b189f53076447b7b54f3012065"
+      },
+      "observatory-apollo": {
+        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
+        "tag": "v0.3.2",
+        "commit": "f704848187a4da2bd179864ae80a1f73a3fd22a6"
+      },
+      "observatory-galileo": {
+        "git": "https://github.com/superstringsoftware/observatory-galileo.git",
+        "branch": "master",
+        "commit": "f21b80e6502d38a7ce66206374b706f2cbd0228d"
+      }
+    }
+  }
+}
